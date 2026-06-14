@@ -1,0 +1,14 @@
+
+    Hello Team,
+
+    Please reach out to alice@example.com for project details.
+    You can also contact bob.smith@company.org or the helpdesk at support@helpdesk.io.
+
+    CC: charlie_99@gmail.com and DIANA@WORK.NET
+
+    Note: These are NOT valid emails — @no-user.com, user@, plaintext
+    Duplicate test: alice@example.com appears again here.
+
+    Regards,
+    Manager
+    
