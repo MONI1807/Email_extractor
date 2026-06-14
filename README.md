@@ -1,17 +1,17 @@
-# 📧 Email Extractor — Task Automation with Python
+#  Email Extractor — Task Automation with Python Scripts
 
 A beginner-friendly Python script that automatically scans a `.txt` file, extracts all valid email addresses using **Regular Expressions (Regex)**, removes duplicates, sorts them alphabetically, and saves the clean results to a new file — with a timestamp.
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✅ Extracts all valid email addresses from any `.txt` file
-- ✅ Removes duplicate emails automatically
-- ✅ Sorts results alphabetically
-- ✅ Saves output to a new file with a timestamp header
-- ✅ Ignores invalid email formats (e.g. `@no-user.com`, `user@`)
-- ✅ Auto-generates a sample input file for instant testing
+- ✔️Extracts all valid email addresses from any `.txt` file
+- ✔️Removes duplicate emails automatically
+- ✔️Sorts results alphabetically
+- ✔️Saves output to a new file with a timestamp header
+- ✔️Ignores invalid email formats (e.g. `@no-user.com`, `user@`)
+- ✔️Auto-generates a sample input file for instant testing
 
 ---
 
@@ -171,10 +171,9 @@ Writes the clean list to a new `.txt` file.
 
 ---
 
-## 🙋 Project Link
+## 🔗 Project Link
 
-Task 2 — Task Automation with Project Scripts
 
-GitHub Repository Link : https://github.com/MONI1807/Email_extractor.git
+GitHub Repository : https://github.com/MONI1807/Email_extractor.git
 
 ---
