@@ -1,19 +1,10 @@
-"""
-Task 2: Extract Email Addresses from a .txt File
-==================================================
-Reads a text file, finds all valid email addresses using regex,
-removes duplicates, sorts them, and saves the results to a new file.
-
-Concepts used: re, file handling, sets, sorting
-"""
-
 import re
 import datetime
 
 
-# ─────────────────────────────────────────────
+
 #  REGEX PATTERN FOR EMAIL ADDRESSES
-# ─────────────────────────────────────────────
+
 
 # Matches standard emails like: user.name+tag@sub.domain.com
 EMAIL_PATTERN = re.compile(
@@ -21,9 +12,9 @@ EMAIL_PATTERN = re.compile(
 )
 
 
-# ─────────────────────────────────────────────
+
 #  STEP 1: CREATE A SAMPLE INPUT FILE
-# ─────────────────────────────────────────────
+
 
 def create_sample_file(filename: str) -> None:
     """Creates a sample .txt file with mixed content and email addresses."""
@@ -47,9 +38,9 @@ def create_sample_file(filename: str) -> None:
     print(f"[INFO]  Sample input file created: '{filename}'")
 
 
-# ─────────────────────────────────────────────
+
 #  STEP 2: EXTRACT EMAILS FROM THE FILE
-# ─────────────────────────────────────────────
+
 
 def extract_emails(input_file: str, output_file: str) -> None:
     """
@@ -99,9 +90,9 @@ def extract_emails(input_file: str, output_file: str) -> None:
     print(f"[DONE]  Results saved to '{output_file}' ✅")
 
 
-# ─────────────────────────────────────────────
+
 #  MAIN — RUN EVERYTHING
-# ─────────────────────────────────────────────
+
 
 def main():
     INPUT_FILE  = "contacts.txt"       # Source file to scan
